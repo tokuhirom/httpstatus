@@ -1,4 +1,8 @@
 Revision history for Perl extension App::httpstatus
 
+1.0.0 2013-02-21T06:31:06
+
+    - doc fix
+
 0.0.1 2013-02-19T09:51:47
     - original version

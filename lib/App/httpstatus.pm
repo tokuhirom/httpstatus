@@ -2,7 +2,7 @@ package App::httpstatus;
 use strict;
 use warnings;
 use 5.008005;
-our $VERSION = '0.0.1';
+our $VERSION = '1.0.0';
 1;
 __END__
 
