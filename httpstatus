@@ -102,17 +102,68 @@ httpstatus - ...
 
 =head1 SYNOPSIS
 
+    # List 4xx status
     % httpstatus 4
+    400 Bad Request
+    401 Unauthorized
+    402 Payment Required
+    403 Forbidden
+    404 Not Found
+    405 Method Not Allowed
+    406 Not Acceptable
+    407 Proxy Authentication Required
+    408 Request Timeout
+    409 Conflict
+    410 Gone
+    411 Length Required
+    412 Precondition Failed
+    413 Request Entity Too Large
+    414 Request-URI Too Large
+    415 Unsupported Media Type
+    416 Request Range Not Satisfiable
+    417 Expectation Failed
+    418 I'm a teapot
+    422 Unprocessable Entity
+    423 Locked
+    424 Failed Dependency
+    425 No code
+    426 Upgrade Required
+    428 Precondition Required
+    429 Too Many Requests
+    431 Request Header Fields Too Large
+    449 Retry with
+
+    # List 40x status
     % httpstatus 40
+    400 Bad Request
+    401 Unauthorized
+    402 Payment Required
+    403 Forbidden
+    404 Not Found
+    405 Method Not Allowed
+    406 Not Acceptable
+    407 Proxy Authentication Required
+    408 Request Timeout
+    409 Conflict
+
     % httpstatus 500
+    Internal Server Error
+
     % httpstatus 403
-    % httpstatus 403
+    Forbidden
+
+    # grep status messages
+    % httpstatus Bad
+    400 Bad Request
+    502 Bad Gateway
+
+    # And, display all messages
+    % httpstatus
+    ...
 
 =head1 DESCRIPTION
 
-App::httpstatus is
-
-B<THIS IS A DEVELOPMENT RELEASE. API MAY CHANGE WITHOUT NOTICE>.
+App::httpstatus is a simple application to display information about HTTP status code.
 
 =head1 AUTHOR
 
